@@ -39,7 +39,7 @@ To run the preprocessing scripts:
 
 ## Model
 
-The project uses a Multi-Head Attention EEGNet model for cognitive load recognition. The implementation is in Python and is located in the `EEGnet` directory.
+The project uses a Multi-Head Attention EEGNet model for cognitive load recognition. The implementation is in Python and is located in the `eegnet` directory.
 
 ### Requirements
 
@@ -53,6 +53,3 @@ You can install the required Python packages using:
 
 ```bash
 pip install -r requirements.txt
-
-
-
