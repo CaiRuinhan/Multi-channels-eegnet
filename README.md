@@ -8,10 +8,7 @@ This repository contains resources for EEG data processing and cognitive load re
 - [Data](#data)
 - [Preprocessing](#preprocessing)
 - [Model](#model)
-- [Usage](#usage)
 - [Requirements](#requirements)
-- [License](#license)
-- [Contact](#contact)
 
 ## Project Overview
 
@@ -29,13 +26,7 @@ The repository includes the following data files:
 
 ## Preprocessing
 
-MATLAB code for preprocessing the EEG data is available in the `MATLAB` directory. These scripts handle:
-
-- **Filtering**: Noise reduction and signal smoothing.
-- **Segmentation**: Extracting relevant segments from the raw data.
-- **Feature Extraction**: Preparing data for model input.
-
-### Usage
+MATLAB code for preprocessing the EEG data is available in the `MATLAB` directory. 
 
 To run the preprocessing scripts:
 
@@ -44,4 +35,24 @@ To run the preprocessing scripts:
 3. Run the preprocessing script:
 
    ```matlab
-   preprocess_eeg.m
+   pre-processing.m
+
+## Model
+
+The project uses a Multi-Head Attention EEGNet model for cognitive load recognition. The implementation is in Python and is located in the `EEGnet` directory.
+
+### Requirements
+
+- Python 3.x
+- pyTorch 2.x
+- numpy
+- mne
+- scikit-learn
+
+You can install the required Python packages using:
+
+```bash
+pip install -r requirements.txt
+
+
+
